@@ -1,0 +1,16 @@
+Ce este un viewport?
+Un viewport este o fereastră sau o regiune în cadrul ecranului unde are loc procesul de afișare a graficii, și este o componentă esențială în grafica computerizată, în special în aplicații 3D.
+Ce reprezintă conceptul de frames per seconds din punctul de vedere al bibliotecii OpenGL?
+Conceptul de "frames per second" în contextul bibliotecii OpenGL se referă la măsurarea câtor cadre sau imagini individuale sunt generate și afișate pe ecran în fiecare secundă de către o aplicație sau joc OpenGL.
+Când este rulată metoda OnUpdateFrame()?
+Metoda "OnUpdateFrame()" este folosita pentru a actualiza starea jocului sau a scenei grafice în fiecare cadru (frame) al jocului. Această metodă poate fi apelată într-un buclă de joc (game loop) și ar trebui să conțină logica de actualizare pentru obiectele jocului, interacțiunile utilizatorului, simularea fizicii și orice altă logică de joc necesară.
+Ce este modul imediat de randare?
+Modul imediat de randare se referă la o tehnică de randare în care datele pentru obiectele grafice, precum verticele, culorile și coordonatele texturii, sunt furnizate direct la fiecare cadru de afișare.
+Care este ultima versiune de OpenGL care acceptă modul imediat?
+Ultima versiune de OpenGL care accepta modul imediat este OpenGL 3.0.
+Când este rulată metoda OnRenderFrame()?
+Metoda OnRenderFrame() este rulata in momentul in care dorim sa desenam scena.
+De ce este nevoie ca metoda OnResize() să fie executată cel puțin o dată?
+Metoda OnResize() trebuie sa fie executata cel putin o data pentru ca aplicatia sa functioneze corect cu noile modificari. Daca utilizatorii redimensioneaza fereastra sau schimba rezoluția ecranului, atunci este important să se adapteze conținutul grafic la noile dimensiuni pentru a menține o afișare corectă și pentru a evita distorsiuni sau probleme de afișare. Aceasta înseamnă că metoda OnResize() trebuie apelată pentru a ajusta parametrii de randare în funcție de noile dimensiuni ale ferestrei sau ale ecranului.
+Ce reprezintă parametrii metodei CreatePerspectiveFieldOfView() și care este domeniul de valori pentru aceștia?
+Parametrii acestei metode reprezintă diferite aspecte ale proiecției perspectivă și a perspectivelor tridimensionale. Domeniul de valori pentru acesti parametrii trebuie alesi astefel incat imaginea creata sa fie clara, nu distorsionata.
